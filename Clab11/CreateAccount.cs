@@ -8,7 +8,7 @@ namespace Clab11
         static void Main(string[] args)
         {
             Console.WriteLine("Sid's Account");
-            BankAccount sidsAccount = Bank.GetAccaunt(Bank.CreateAccount());
+            BankAccount sidsAccount = Bank.GetAccount(Bank.CreateAccount());
             TestDeposit(sidsAccount);
             TestWithdraw(sidsAccount);
             Write(sidsAccount);

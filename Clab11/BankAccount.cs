@@ -30,7 +30,7 @@ sealed public class BankAccount : IDisposable
         {
             accNo = NextNumber();
             accType = aType;
-            accBal = 0;
+            accBal = 0;  
         }
 
         internal BankAccount(decimal aBal)
